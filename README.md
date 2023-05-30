@@ -8,7 +8,7 @@
 - [ライセンス](#ライセンス)
 
 
-<br><br>
+<br>
 # 機能の説明 
 ・時間割から学校の授業用フォルダを作成するツールです。  
 ・「各曜日＞各授業＞各回」という感じのフォルダを生成します。  
@@ -23,11 +23,11 @@
 
 ![screenshot2](screenshots/screenshot2.PNG)  
 
-<br><br>
+<br>
 # このツールを使う(ウェブ上)
 ・GitHub Pages↓にデプロイしているのでウェブ上で使えます
 
-<br><br>
+<br>
 # このツールを動かす方法(ローカル)
 ・ファイルを右上の「Code＞Download ZIP」でDLし解凍、  
 　中にある「index.html」をブラウザで開くだけで使用可能です。  
@@ -35,18 +35,18 @@
 ~~・ライブラリはCDNから読み込んでいるので、オフラインでは使用不可です。~~  
 ・ライブラリを同梱しているので、オフラインでも使用可能です。
 
-<br><br>
+<br>
 # 使用しているJSのライブラリ
 これらのライブラリを使用しています。  <br><br>
 
 ## JSZip.js：ZIPファイルの作成
 https://github.com/Stuk/jszip  
 Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, António Afonso.
-<br><br>
+<br>
   
 ## FileSaver.js：ファイルの保存とDL  
 https://github.com/eligrey/FileSaver.js  
 Copyright © 2016 Eli Grey.
-<br><br><br>
+<br>
 # ライセンス
 ・[MIT license](https://en.wikipedia.org/wiki/MIT_License)です。自由に改造とかしてくださいな。
