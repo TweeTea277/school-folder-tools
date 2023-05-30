@@ -1,4 +1,15 @@
-# このツールの説明 
+
+- [機能の説明](#機能の説明)
+- [このツールを使う(ウェブ上)](#このツールを使うウェブ上)
+- [このツールを動かす方法(ローカル)](#このツールを動かす方法ローカル)
+- [使用しているJSのライブラリ](#使用しているjsのライブラリ)
+  - [JSZip.js：ZIPファイルの作成](#jszipjszipファイルの作成)
+  - [FileSaver.js：ファイルの保存とDL](#filesaverjsファイルの保存とdl)
+- [ライセンス](#ライセンス)
+
+
+<br><br>
+# 機能の説明 
 ・時間割から学校の授業用フォルダを作成するツールです。  
 ・「各曜日＞各授業＞各回」という感じのフォルダを生成します。  
 ・エクセルに貼り付ける用のTSVも生成します。  
@@ -13,22 +24,28 @@
 ![screenshot2](screenshots/screenshot2.PNG)  
 
 <br><br>
-# このツールの動かし方
-・ファイルを右上の「Code＞Download ZIP」でDLして、  
-　中にある「index.html」をブラウザで開くだけで使用可能です。  
-・同一生成元ポリシーの制限に引っ掛かるやつは使用してないです。
-~~・ライブラリはCDNから読み込んでいるので、オフラインでは使用不可です。~~  
-・ライブラリを同梱している(MITなので可能)のでオフラインでも使用可能。  
+# このツールを使う(ウェブ上)
+・GitHub Pages↓にデプロイしているのでウェブ上で使えます
 
 <br><br>
-# 使用しているJavaScriptのライブラリ
+# このツールを動かす方法(ローカル)
+・ファイルを右上の「Code＞Download ZIP」でDLし解凍、  
+　中にある「index.html」をブラウザで開くだけで使用可能です。  
+・同一生成元ポリシーの制限に引っ掛かる機能は使用してないです。
+~~・ライブラリはCDNから読み込んでいるので、オフラインでは使用不可です。~~  
+・ライブラリを同梱しているので、オフラインでも使用可能です。
+
+<br><br>
+# 使用しているJSのライブラリ
 これらのライブラリを使用しています。  <br><br>
 
-## JSZip.js(https://github.com/Stuk/jszip)
+## JSZip.js：ZIPファイルの作成
+https://github.com/Stuk/jszip  
 Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, António Afonso.
 <br><br>
   
-## FileSaver.js(https://github.com/eligrey/FileSaver.js)  
+## FileSaver.js：ファイルの保存とDL  
+https://github.com/eligrey/FileSaver.js  
 Copyright © 2016 Eli Grey.
 <br><br><br>
 # ライセンス
